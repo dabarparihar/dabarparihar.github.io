@@ -325,6 +325,12 @@ ul#nav li.current a { color: #F06000; }
    border-radius: 3px 0 0 3px;
 }
 
+.objectivec {
+   width: 80%;
+   -moz-animation: photoshop 2s ease;
+   -webkit-animation: photoshop 2s ease;
+}
+
 .java {
   	width: 80%;
   	-moz-animation: photoshop 2s ease;
@@ -356,6 +362,10 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: jquery 2s ease;
 }
 
+@-moz-keyframes objectivec {
+   0%   { width: 0px;  }
+   100% { width: 80%;  }
+ }
 @-moz-keyframes java {
   0%   { width: 0px;  }
   100% { width: 80%;  }
@@ -380,6 +390,11 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 50%;  }
 }
+
+@-webkit-keyframes objectivec {
+   0%   { width: 0px;  }
+   100% { width: 80%;  }
+ }
 
 @-webkit-keyframes java {
   0%   { width: 0px;  }
